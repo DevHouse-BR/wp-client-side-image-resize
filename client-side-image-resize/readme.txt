@@ -2,8 +2,8 @@
 Contributors: llvasconcellos
 Tags: wordpress 3.9, plupload, images, resize, browser, html5, client, side, high resolution
 Donate link: http://www.devhouse.com.br/client-side-image-resize/
-Requires at least: 3.9
-Tested up to: 3.9
+Requires at least: 3.3
+Tested up to: 4.7
 Stable tag: trunk
 License: GPL2
 License URI: http://www.devhouse.com.br/client-side-image-resize/
@@ -11,9 +11,19 @@ License URI: http://www.devhouse.com.br/client-side-image-resize/
 Uses HTML5 to resize large images before uploading to server.
 
 == Description ==
-With this plugin you can use High Resolution images directly from your camera to WordPress without using any additional software to resize them. You only have to use a HTML5 capable browser.
 
-* It's the first compatible with WordPress 3.9!
+*** ATENTION ***
+
+Due to modifications on the Media Library the plugin only works with the "UPLOAD NEW MEDIA" form located under Media -> Add New menu entry on the left menu. If you click direct on Media and use the Add New button of MEDIA LIBRARY the plugin will not be executed.
+
+I filled a bug report here:
+https://core.trac.wordpress.org/ticket/39492
+
+
+
+------------------------------------
+
+With this plugin you can use High Resolution images directly from your camera to WordPress without using any additional software to resize them. You only have to use a HTML5 capable browser.
 
 * Works with Drag & Drop!
 
@@ -26,8 +36,6 @@ Brought to you by DevHouse - Internet Software Development House: http://www.dev
 ********************************
 
 Com este plugin você pode usar diretamente as imagens em alta resolução diretamente da sua câmera digital diretamente para o WordPress sem a necessidade de passar por softwares adicionais para redimensioná-las. Basta ter um browser atualizado.
-
-* É o primeiro compatível com WordPress 3.9!
 
 * Funciona com Drag & Drop!
 
@@ -50,5 +58,7 @@ Trazido para você por DevHouse - Internet Software Development House: http://ww
 1. Added resize section to media configuration.
 
 == Changelog ==
+= 1.1 =
+* Tested on 4.7.
 = 1.0 =
 * Initial release.

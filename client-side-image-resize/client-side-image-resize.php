@@ -3,7 +3,7 @@
 Plugin Name: Client Side Image Resize
 Plugin URI: https://github.com/WPsites/Resize-images-before-upload
 Description: Resize your images before they are uploaded to the server using HTML5. Send huge images directly to wordpress interface. They will be resized before upload to server, saving time and discarting the use of additional software.
-Version: 1.0
+Version: 1.1
 Author: Leonardo Lima de Vasconcellos
 Author URI: http://www.devhouse.com.br
 License: GPL2
