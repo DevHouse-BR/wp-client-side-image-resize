@@ -1,3 +1,5 @@
+![Client Side Image Resize](/assets/banner-1544x500.jpg)
+
 # wp-client-side-image-resize
 Wordpress plugin for resizing image on the browser before uploading to the server.
 
